@@ -1,12 +1,27 @@
 # ---------------------------------------------------------------
 # Site Information Settings
 # ---------------------------------------------------------------
+author: 习常
+avatar: /images/author.jpg
+description: 习以为常
+
+language: zh-Hans
+
+since: 2015
+
+auto_excerpt:
+  enable: true
+  length: 150
+
+index_generator:
+  per_page: 5
+
 
 # Place your favicon.ico to /source directory.
 favicon: /favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Hexo, NexT"
+keywords: "习常,习以为常"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -27,13 +42,11 @@ rss:
 # Remove leading slashes ( "/archives" -> "archives" )
 menu:
   home: /
-  #categories: /categories
+  categories: /categories
   #about: /about
   archives: /archives
-  tags: /tags
+  # tags: /tags
   #commonweal: /404.html
-
-
 # Enable/Disable menu icons.
 # Icon Mapping:
 #   Map a menu item to a specific FontAwesome icon name.
@@ -57,7 +70,7 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-#scheme: Mist
+scheme: Mist
 
 
 
@@ -72,14 +85,14 @@ menu_icons:
 #  - hide    expand only when click on the sidebar toggle icon.
 #  - remove  Totally remove sidebar including sidebar toggle icon.
 sidebar: post
-#sidebar: always
+# sidebar: always
 #sidebar: hide
 #sidebar: remove
 
 
 # Social links
-# social:
-  #GitHub:
+social:
+  GitHub: https://github.com/chenpx976
   #Others:
 
 # Social Icons
@@ -136,7 +149,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night
 
 # Automatically scroll page to section which is under <!-- more --> mark.
 scroll_to_more: true
@@ -166,7 +179,7 @@ mathjax:
 #baidu_analytics:
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: chenpx976
 
 # Disqus
 #disqus_shortname:
@@ -222,7 +235,7 @@ facebook_sdk:
 use_motion: true
 
 # Fancybox
-fancybox: true
+fancybox: false
 
 # Static files
 vendors: vendors
